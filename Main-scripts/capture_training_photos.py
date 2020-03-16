@@ -11,4 +11,4 @@ for i in range(4500):
     camera.capture('Training-photos/%s.jpg' % datetime.now().strftime("%H_%M_%S"))
 
 # print time when script finishes
-print("Finishing time: ", datetime.now().strftime("%H_%M_%S"))
+print("Finishing time: ", datetime.now().strftime("%H:%M:%S"))
